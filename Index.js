@@ -34,4 +34,3 @@ app.get('/', (req, res) => {
     <p>Connected Bots: <strong>${clients.size}</strong></p>
     <p>Status: ✅ ONLINE</p>
   `);
-});
