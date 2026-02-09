@@ -1,10 +1,13 @@
 {
-  "name": "high-performance-websocket",
+  "name": "railway-websocket",
   "version": "1.0.0",
-  "description": "High frequency WebSocket server",
+  "description": "High-frequency WebSocket server ready for Railway",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.x"
   },
   "dependencies": {
     "ws": "^8.16.0",
