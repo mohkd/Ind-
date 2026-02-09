@@ -1,16 +1,13 @@
 {
-  "name": "brainfind-ws",
+  "name": "high-performance-websocket",
   "version": "1.0.0",
-  "description": "WebSocket server for Railway",
+  "description": "High frequency WebSocket server",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "start": "node server.js"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "dependencies": {
-    "ws": "^8.16.0"
+    "ws": "^8.16.0",
+    "express": "^4.19.2"
   }
 }
